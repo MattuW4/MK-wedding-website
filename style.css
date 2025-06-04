@@ -10,13 +10,14 @@
 body {
     font-family: "Cabin", sans-serif;
     background-color: #EFE4D2;
+    color: black;
 }
 
 /* Fonts */
 
-h1 {
+.great-vibes {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
 }
 
-
+  

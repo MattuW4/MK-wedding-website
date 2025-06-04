@@ -8,9 +8,14 @@
 }
 
 /* Fonts */
-.great-vibes-regular {
+
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+.great-vibes {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    font-style: normal;
-  }
-  
+}
+
+

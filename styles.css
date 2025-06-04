@@ -7,13 +7,15 @@
     border: none;
 }
 
-/* Fonts */
-
 body {
     font-family: "Cabin", sans-serif;
+    background: #EFE4D2;
+    color: red;
 }
 
-.great-vibes {
+/* Fonts */
+
+h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
 }

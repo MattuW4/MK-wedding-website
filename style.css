@@ -21,5 +21,17 @@ body {
     font-size: 4rem;
 }
 
+/* Links underline on hover */
+.underline-on-hover {
+  border-bottom: 2px solid transparent;
+  transition: border-color 1s ease;
+  cursor: pointer; 
+}
+
+.underline-on-hover:hover {
+  border-bottom-color: currentColor; 
+}
+
+
 
   

@@ -13,10 +13,8 @@ body {
     color: black;
 }
 
-#info-break {
+#info-break .line {
     width: 12.5rem;
-    color: black;
-    border: none;              
     border-top: 2px solid;
     margin: 0 auto;
 }

@@ -33,41 +33,74 @@ body {
     font-size: 2rem;
 }
 
-/* Accordian style */
+/* Accordian details style */
 
 /* Change background and text color of active accordion button */
-.orange .accordion-button:not(.collapsed) {
+.orange-acc .accordion-button:not(.collapsed) {
   background-color: #de9f66;  
   color: #de9f66;               
 }
 
-/* Optional: Change hover/focus color */
-.orange .accordion-button:focus {
-  border-color: #de9f66;
-  box-shadow: 0 0 0 0.25rem #de9f66;
-}
-
-.pink .accordion-button:not(.collapsed) {
+.pink-acc .accordion-button:not(.collapsed) {
   background-color: #da91b4;  
   color: #da91b4;               
 }
 
-/* Optional: Change hover/focus color */
-.pink .accordion-button:focus {
-  border-color: #da91b4;
-  box-shadow: 0 0 0 0.25rem #da91b4;
-}
-
-.rouge .accordion-button:not(.collapsed) {
+.rouge-acc .accordion-button:not(.collapsed) {
   background-color: #c97861;  
   color: #c97861;               
 }
 
-/* Optional: Change hover/focus color */
-.rouge .accordion-button:focus {
+/* Change hover/focus color */
+.orange-acc .accordion-button:focus {
+  border-color: #da91b4;
+  box-shadow: 0 0 0 0.25rem #da91b4;
+}
+
+.pink-acc .accordion-button:focus {
   border-color: #c97861;
   box-shadow: 0 0 0 0.25rem #c97861;
 }
+
+.rouge-acc .accordion-button:focus {
+  border-color: #de9f66;
+  box-shadow: 0 0 0 0.25rem #de9f66;
+}
+
+/* Accommodation button details style */
+
+/* Change background and text color of active accordion button */
+button.custom-collapse-btn-orangetravel {
+  background-color: #de9f66;
+  border: none;
+}
+
+button.custom-collapse-btn-rougetravel {
+  background-color: #c97861;
+  border: none;
+}
+
+button.custom-collapse-btn-pinktravel {
+  background-color: #da91b4;
+  border: none;
+}
+
+/* Change hover/focus color */
+button.custom-collapse-btn-orangetravel:hover {
+  background-color: #da91b4;
+  border: none;
+}
+
+button.custom-collapse-btn-rougetravel:hover {
+  background-color: #de9f66;
+  border: none;
+}
+
+button.custom-collapse-btn-pinktravel:hover {
+  background-color: #c97861;
+  border: none;
+}
+
 
 
 /* Links underline on hover */

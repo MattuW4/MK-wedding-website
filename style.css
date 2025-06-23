@@ -28,11 +28,50 @@ body {
 }
 
 /* Countdown timer */
+
 #countdown {
     font-size: 2rem;
 }
 
+/* Accordian style */
+
+/* Change background and text color of active accordion button */
+.orange .accordion-button:not(.collapsed) {
+  background-color: #de9f66;  
+  color: #de9f66;               
+}
+
+/* Optional: Change hover/focus color */
+.orange .accordion-button:focus {
+  border-color: #de9f66;
+  box-shadow: 0 0 0 0.25rem #de9f66;
+}
+
+.pink .accordion-button:not(.collapsed) {
+  background-color: #da91b4;  
+  color: #da91b4;               
+}
+
+/* Optional: Change hover/focus color */
+.pink .accordion-button:focus {
+  border-color: #da91b4;
+  box-shadow: 0 0 0 0.25rem #da91b4;
+}
+
+.rouge .accordion-button:not(.collapsed) {
+  background-color: #c97861;  
+  color: #c97861;               
+}
+
+/* Optional: Change hover/focus color */
+.rouge .accordion-button:focus {
+  border-color: #c97861;
+  box-shadow: 0 0 0 0.25rem #c97861;
+}
+
+
 /* Links underline on hover */
+
 .underline-on-hover {
     border-bottom: 2px solid transparent;
     transition: border-color 0.5s ease;

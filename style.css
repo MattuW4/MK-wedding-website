@@ -70,19 +70,78 @@ body {
 /* Accommodation button details style */
 
 .accordion-button {
-  justify-content: center;
-  text-align: center;
+  display: flex !important;
+  flex-direction: column !important; 
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 1rem !important;
+}
+
+/* Button image styling */
+
+.accordion-button img {
+  width: 100%;
+  max-width: 6.25rem; 
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+ 
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  border: none !important;
 }
 
 /* Change background and text color of active accordion button */
+
+/* Orange Travel*/
 button.custom-collapse-btn-orangetravel {
-  background-color: #de9f66;
-  border: none;
+  background-color: #de9f66 !important;
+  border: none !important;
+  color: #fff !important;
+}
+button.custom-collapse-btn-orangetravel:hover,
+button.custom-collapse-btn-orangetravel:focus {
+  background-color: #da91b4 !important;
+  border: none !important;
 }
 
+button.custom-collapse-btn-orangetravel:not(.collapsed) {
+  background-color: #de9f66 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Rouge Travel*/
 button.custom-collapse-btn-rougetravel {
-  background-color: #c97861;
-  border: none;
+  background-color: #c97861 !important;
+  border: none !important;
+  color: #fff !important;
+}
+button.custom-collapse-btn-rougetravel:hover,
+button.custom-collapse-btn-rougetravel:focus {
+  background-color: #de9f66 !important;
+  border: none !important;
+}
+button.custom-collapse-btn-rougetravel:not(.collapsed) {
+  background-color: #c97861 !important;
+  color: #fff !important;
 }
 
 button.custom-collapse-btn-pinktravel {
@@ -90,20 +149,22 @@ button.custom-collapse-btn-pinktravel {
   border: none;
 }
 
-/* Change hover/focus color */
-button.custom-collapse-btn-orangetravel:hover {
-  background-color: #da91b4;
-  border: none;
-}
+/* Pink travel */
 
-button.custom-collapse-btn-rougetravel:hover {
-  background-color: #de9f66;
-  border: none;
+button.custom-collapse-btn-pinktravel {
+  background-color: #da91b4 !important;
+  border: none !important;
+  color: #fff !important;
 }
-
-button.custom-collapse-btn-pinktravel:hover {
-  background-color: #c97861;
-  border: none;
+button.custom-collapse-btn-pinktravel:hover,
+button.custom-collapse-btn-pinktravel:focus {
+  background-color: #c97861 !important;
+  border: none !important;
+}
+button.custom-collapse-btn-pinktravel:not(.collapsed) {
+  background-color: #da91b4 !important;
+  color: #fff !important;
+  border: none !important;
 }
 
 

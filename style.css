@@ -2,53 +2,53 @@
 
 /* Structural CSS */
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: "Cabin", sans-serif;
-    background-color: #EFE4D2;
-    color: black;
+  font-family: "Cabin", sans-serif;
+  background-color: #EFE4D2;
+  color: black;
 }
 
 #info-break .line {
-    width: 12.5rem;
-    border-top: 2px solid;
-    margin: 0 auto;
+  width: 12.5rem;
+  border-top: 2px solid;
+  margin: 0 auto;
 }
 
 /* Fonts */
 
 .great-vibes {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-size: 4rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 4rem;
 }
 
 /* Countdown timer */
 
 #countdown {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Accordian details style */
 
 /* Change background and text color of active accordion button */
 .orange-acc .accordion-button:not(.collapsed) {
-  background-color: #de9f66;  
-  color: #de9f66;               
+  background-color: #de9f66;
+  color: #de9f66;
 }
 
 .pink-acc .accordion-button:not(.collapsed) {
-  background-color: #da91b4;  
-  color: #da91b4;               
+  background-color: #da91b4;
+  color: #da91b4;
 }
 
 .rouge-acc .accordion-button:not(.collapsed) {
-  background-color: #c97861;  
-  color: #c97861;               
+  background-color: #c97861;
+  color: #c97861;
 }
 
 /* Change hover/focus color */
@@ -69,9 +69,14 @@ body {
 
 /* Accommodation button details style */
 
+.accordion-item {
+  margin-bottom: 1rem; 
+}
+
+
 .accordion-button {
   display: flex !important;
-  flex-direction: column !important; 
+  flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
@@ -79,23 +84,26 @@ body {
   border: none !important;
   box-shadow: none !important;
   padding: 1rem !important;
+  align-items: center;
 }
+
 
 /* Button image styling */
 
 .accordion-button img {
-  width: 100%;
-  max-width: 6.25rem; 
-  height: auto;
+  width: auto;
+  max-width: 10.25rem;
+  max-height: 6.25rem;
   object-fit: contain;
   display: block;
   margin: 0 auto 0.5rem auto;
   background-color: transparent !important;
   border: none !important;
+  padding-bottom: 0.1rem !important;
 }
 
 .accordion-button:not(.collapsed) {
- 
+
   border: none !important;
   box-shadow: none !important;
 }
@@ -116,6 +124,7 @@ button.custom-collapse-btn-orangetravel {
   border: none !important;
   color: #fff !important;
 }
+
 button.custom-collapse-btn-orangetravel:hover,
 button.custom-collapse-btn-orangetravel:focus {
   background-color: #da91b4 !important;
@@ -134,11 +143,13 @@ button.custom-collapse-btn-rougetravel {
   border: none !important;
   color: #fff !important;
 }
+
 button.custom-collapse-btn-rougetravel:hover,
 button.custom-collapse-btn-rougetravel:focus {
   background-color: #de9f66 !important;
   border: none !important;
 }
+
 button.custom-collapse-btn-rougetravel:not(.collapsed) {
   background-color: #c97861 !important;
   color: #fff !important;
@@ -156,11 +167,13 @@ button.custom-collapse-btn-pinktravel {
   border: none !important;
   color: #fff !important;
 }
+
 button.custom-collapse-btn-pinktravel:hover,
 button.custom-collapse-btn-pinktravel:focus {
   background-color: #c97861 !important;
   border: none !important;
 }
+
 button.custom-collapse-btn-pinktravel:not(.collapsed) {
   background-color: #da91b4 !important;
   color: #fff !important;
@@ -170,31 +183,31 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
 /* Links underline on hover */
 
 .underline-on-hover {
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.5s ease;
-    cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.5s ease;
+  cursor: pointer;
 }
 
 .underline-on-hover:hover {
-    border-bottom-color: currentColor;
+  border-bottom-color: currentColor;
 }
 
 /* Hero image and text*/
 
 #hero-container {
-    height: 70vh;
-    max-width: 100%;
-    overflow: hidden;
-    margin: auto;
-    position: relative;
-    border: rgba(217, 217, 217, 0.5) solid 1px;
-    border-radius: 3px;
+  height: 70vh;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  border: rgba(217, 217, 217, 0.5) solid 1px;
+  border-radius: 3px;
 }
 
 #hero-image {
-    height: 100%;
-    width: 100%;
-    background: url(../images/hero-image.png) no-repeat center center;
-    position: relative;
-    transition: transform 4s;
+  height: 100%;
+  width: 100%;
+  background: url(../images/hero-image.png) no-repeat center center;
+  position: relative;
+  transition: transform 4s;
 }

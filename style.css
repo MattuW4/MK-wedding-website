@@ -69,6 +69,11 @@ body {
 
 /* Accommodation button details style */
 
+.accordion-button {
+  justify-content: center;
+  text-align: center;
+}
+
 /* Change background and text color of active accordion button */
 button.custom-collapse-btn-orangetravel {
   background-color: #de9f66;

@@ -73,9 +73,19 @@ body {
   border-bottom-color: currentColor;
 }
 
+/* DETAILS PAGE */
+
+
+
 /* ACCOMMODATION PAGE */
 
 /* Accordian details style */
+
+.accordion-header .accordion-button {
+  font-size: 1.5rem; 
+}
+
+
 
 /* Change background and text color of active accordion button */
 .orange-acc .accordion-button:not(.collapsed) {

@@ -27,11 +27,53 @@ body {
   font-size: 4rem;
 }
 
+/* INDEX PAGE */
+
+/* Hero image and text*/
+
+#hero-container {
+  height: 70vh;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  border: rgba(217, 217, 217, 0.5) solid 1px;
+  border-radius: 3px;
+}
+
+#hero-image {
+  height: 100%;
+  width: 100%;
+  background: url(../images/hero-image.png) no-repeat center center;
+  position: relative;
+  transition: transform 4s;
+}
+
+/* Typography */
+.container.text-center.py-5 p {
+  font-size: 1.75rem;
+  padding-top: 1.25rem;
+}
+
 /* Countdown timer */
 
 #countdown {
   font-size: 2rem;
 }
+
+/* Links underline on hover */
+
+.underline-on-hover {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.5s ease;
+  cursor: pointer;
+}
+
+.underline-on-hover:hover {
+  border-bottom-color: currentColor;
+}
+
+/* ACCOMMODATION PAGE */
 
 /* Accordian details style */
 
@@ -180,34 +222,5 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
   border: none !important;
 }
 
-/* Links underline on hover */
 
-.underline-on-hover {
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.5s ease;
-  cursor: pointer;
-}
 
-.underline-on-hover:hover {
-  border-bottom-color: currentColor;
-}
-
-/* Hero image and text*/
-
-#hero-container {
-  height: 70vh;
-  max-width: 100%;
-  overflow: hidden;
-  margin: auto;
-  position: relative;
-  border: rgba(217, 217, 217, 0.5) solid 1px;
-  border-radius: 3px;
-}
-
-#hero-image {
-  height: 100%;
-  width: 100%;
-  background: url(../images/hero-image.png) no-repeat center center;
-  position: relative;
-  transition: transform 4s;
-}

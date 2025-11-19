@@ -341,21 +341,22 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
 /* Image style and focus in */
 .img-container {
   width: 100%;
-  height: 400px; 
+  height: 30rem; 
   overflow: hidden; 
   position: relative;
 }
 
 .rsvp-img {
-  width: 100%;
+  width: 1000%;
   height: 100%;
   object-fit: cover; 
+  transform: scale(1);
   animation: zoomIn 10s ease-in-out forwards;
 }
 
 @keyframes zoomIn {
   0% {
-    transform: scale(1);
+    transform: scale(0.75);
   }
   100% {
     transform: scale(1.2); 

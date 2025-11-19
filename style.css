@@ -69,7 +69,7 @@ body {
 .loading-dots span {
   animation: blink 1.4s infinite;
   font-size: 2.5em;
-  color: #b56576; 
+  color: #b56576;
 }
 
 .loading-dots span:nth-child(2) {
@@ -81,9 +81,19 @@ body {
 }
 
 @keyframes blink {
-  0%, 20% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+
+  0%,
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 /* Links underline on hover */
@@ -115,24 +125,54 @@ body {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .flip-card-front,
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   backface-visibility: hidden;
+  top: 0;
+  left: 0;
+
+}
+
+.flip-card-front {
+  z-index: 2;
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
+  z-index: 3;
+  overflow-y: auto;
+}
+
+/* Card Background Colours */
+
+/* Orange*/
+.cardbackground1 {
+  background-color: #de9f66 !important;
+  color: #fff !important;
+}
+
+/* Rouge*/
+.cardbackground2 {
+  background-color: #c97861 !important;
+  color: #fff !important;
+}
+
+/* Pink  */
+
+.cardbackground3 {
+  background-color: #da91b4 !important;
+  color: #fff !important;
 }
 
 /* ACCOMMODATION PAGE */
@@ -140,10 +180,8 @@ body {
 /* Accordian details style */
 
 .accordion-header .accordion-button {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
-
-
 
 /* Change background and text color of active accordion button */
 .orange-acc .accordion-button:not(.collapsed) {
@@ -180,7 +218,7 @@ body {
 /* Accommodation button details style */
 
 .accordion-item {
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 
@@ -265,11 +303,6 @@ button.custom-collapse-btn-rougetravel:not(.collapsed) {
   color: #fff !important;
 }
 
-button.custom-collapse-btn-pinktravel {
-  background-color: #da91b4;
-  border: none;
-}
-
 /* Pink travel */
 
 button.custom-collapse-btn-pinktravel {
@@ -289,6 +322,3 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
   color: #fff !important;
   border: none !important;
 }
-
-
-

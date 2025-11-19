@@ -22,3 +22,4 @@ const timeLeft = weddingDate - now.getTime();
 
 const interval = setInterval(updateCountdown, 1000 * 60 * 60); 
 updateCountdown();
+

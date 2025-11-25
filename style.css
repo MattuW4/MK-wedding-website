@@ -29,8 +29,9 @@ body {
 
 /* Headings */
 
-h1 {    
-    text-transform: capitalize; 
+h1 {
+  
+  text-transform: uppercase;
 }
 
 /* Navbar */
@@ -38,6 +39,7 @@ h1 {
 .navbar-bog-colour {
   background-color: rgb(215 148 115 / 16%) !important;
 }
+
 
 /* ====== INDEX PAGE ====== */
 
@@ -71,6 +73,8 @@ h1 {
 
 #countdown {
   font-size: 3rem;
+  font-style: italic;
+  text-transform: capitalize;
 }
 
 .loading-dots {
@@ -347,15 +351,15 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
 /* Image style and focus in */
 .img-container {
   width: 100%;
-  height: 30rem; 
-  overflow: hidden; 
+  height: 30rem;
+  overflow: hidden;
   position: relative;
 }
 
 .rsvp-img {
   width: 1000%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   transform: scale(1);
   animation: zoomIn 10s ease-in-out forwards;
 }
@@ -364,7 +368,8 @@ button.custom-collapse-btn-pinktravel:not(.collapsed) {
   0% {
     transform: scale(0.75);
   }
+
   100% {
-    transform: scale(1.2); 
+    transform: scale(1.2);
   }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
 
 /* ====== STRUCTURAL CSS ======  */
 * {
@@ -22,9 +22,15 @@ body {
 /* Fonts */
 
 .great-vibes {
-  font-family: "Great Vibes", cursive;
+  font-family: "Cormorant Infant", cursive;
   font-weight: 400;
   font-size: 4rem;
+}
+
+/* Headings */
+
+h1 {    
+    text-transform: capitalize; 
 }
 
 /* Navbar */

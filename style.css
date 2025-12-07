@@ -128,6 +128,10 @@ h1 {
 
 /* Cards */
 
+.flip-card-front .card-body p {
+  color: #fff !important; 
+}
+
 .flip-card {
   width: 100%;
   height: 300px;

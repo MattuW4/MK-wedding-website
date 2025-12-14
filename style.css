@@ -202,25 +202,33 @@ h1 {
 /* Card Background Colours */
 
 /* Option1*/
-.cardbackground1 {
-  background-color: #dcd3c6  !important;
-  color: #8d5361 !important;
+.cardbackground1 { 
+  background-color: #D6937A !important;
+  color: #fff !important;
 }
 
 #cardtextbody1 {
-  color: #8d5361 !important;
+  color: #fff !important;
 }
 
 /* Option2*/
 .cardbackground2 {
-  background-color: #846f45 !important;
+  background-color:  #C5785E !important;
+  color: #fff !important;
+}
+
+#cardtextbody2 {
   color: #fff !important;
 }
 
 /* Option3  */
 
 .cardbackground3 {
-  background-color: #919c5d !important;
+  background-color: #D89497 !important;
+  color: #fff !important;
+}
+
+#cardtextbody3 {
   color: #fff !important;
 }
 
@@ -389,15 +397,15 @@ h1 {
 
 /* Option 1 */
 button.custom-collapse-btn-option1 {
-  background-color: #de9f66 !important;
+  background-color: #D6937A !important;
   border: none !important;
-  color: #fff !important;
 }
 
 button.custom-collapse-btn-option1:hover/*,
 button.custom-collapse-btn-option1:focus*/ {
-  background-color: #8d5361 !important;
+  background-color: #C5785E !important;
   border: none !important;
+  color: #fff !important;
 }
 
 /*button.custom-collapse-btn-option1:not(.collapsed) {
@@ -408,15 +416,15 @@ button.custom-collapse-btn-option1:focus*/ {
 
 /* Option 2 */
 button.custom-collapse-btn-option2 {
-  background-color: #57485d !important;
+  background-color: #C5785E !important;
   border: none !important;
-  color: #fff !important;
 }
 
 button.custom-collapse-btn-option2:hover /*,
  button.custom-collapse-btn-option2:focus */{
-  background-color: #de9f66 !important;
+  background-color: #D6937A  !important;
   border: none !important;
+  color: #fff !important;
 }
 
 /*button.custom-collapse-btn-option2:not(.collapsed) {
@@ -427,14 +435,13 @@ button.custom-collapse-btn-option2:hover /*,
 /* Option 3 */
 
 button.custom-collapse-btn-option3 {
-  background-color: #8d5361 !important;
+  background-color: #D89497 !important;
   border: none !important;
-  color: #fff !important;
 }
 
 button.custom-collapse-btn-option3:hover /*,
  button.custom-collapse-btn-option3:focus */{
-  background-color: #a56738 !important;
+  background-color: #D6937A !important;
   border: none !important;
 }
 
@@ -445,17 +452,16 @@ button.custom-collapse-btn-option3:hover /*,
 } */
 
 /* Option 4 */
-
 button.custom-collapse-btn-option4 {
-  background-color: #a56738 !important;
+  background-color: #D6937A !important;
   border: none !important;
-  color: #fff !important;
 }
 
 button.custom-collapse-btn-option4:hover/*,
- button.custom-collapse-btn-option4:focus */ {
-  background-color: #57485d !important;
+button.custom-collapse-btn-option1:focus*/ {
+  background-color: #C5785E !important;
   border: none !important;
+  color: #fff !important;
 }
 
 /* button.custom-collapse-btn-option4:not(.collapsed) {

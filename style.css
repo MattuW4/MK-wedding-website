@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 /* ====== STRUCTURAL CSS ======  */
 * {
@@ -9,7 +9,7 @@
 
 body {
   font-family: "Cabin", sans-serif;
-  background-color: #EFE4D2;
+  background-color: #F5EBDD !important;
   color: black;
 }
 
@@ -22,7 +22,7 @@ body {
 /* Fonts */
 
 .great-vibes {
-  font-family: "Cormorant Infant", cursive;
+  font-family: "Playfair Display SC", cursive;
   font-weight: 400;
   font-size: 4rem;
 }
@@ -30,7 +30,7 @@ body {
 /* Headings */
 
 h1 {
-  
+  color: #A44E44  !important;
   text-transform: uppercase;
 }
 
@@ -40,6 +40,11 @@ h1 {
   background-color: rgb(215 148 115 / 16%) !important;
 }
 
+/* Line break */
+
+.line {
+  color: #A44E44  ;
+}
 
 /* ====== INDEX PAGE ====== */
 
@@ -177,22 +182,29 @@ h1 {
 
 /* Card Background Colours */
 
-/* Orange*/
+/* Option1*/
 .cardbackground1 {
-  background-color: #de9f66 !important;
+  background-color: #4a769e  !important;
   color: #fff !important;
 }
 
-/* Rouge*/
+/* Option2*/
 .cardbackground2 {
-  background-color: #c97861 !important;
+  background-color: #846f45 !important;
   color: #fff !important;
 }
 
-/* Pink  */
+/* Option3  */
 
 .cardbackground3 {
-  background-color: #da91b4 !important;
+  background-color: #919c5d !important;
+  color: #fff !important;
+}
+
+/* Option4 */
+
+.cardbackground4 {
+  background-color: #57485d !important;
   color: #fff !important;
 }
 
@@ -350,63 +362,82 @@ h1 {
 
 /* Change background and text color of active accordion button */
 
-/* Orange Travel*/
-button.custom-collapse-btn-orangetravel {
+/* Option 1 */
+button.custom-collapse-btn-option1 {
   background-color: #de9f66 !important;
   border: none !important;
   color: #fff !important;
 }
 
-button.custom-collapse-btn-orangetravel:hover,
-button.custom-collapse-btn-orangetravel:focus {
-  background-color: #da91b4 !important;
+button.custom-collapse-btn-option1:hover/*,
+button.custom-collapse-btn-option1:focus*/ {
+  background-color: #8d5361 !important;
   border: none !important;
 }
 
-button.custom-collapse-btn-orangetravel:not(.collapsed) {
+/*button.custom-collapse-btn-option1:not(.collapsed) {
+  background-color: #57485d !important;
+  color: #fff !important;
+  border: none !important;
+}*/
+
+/* Option 2 */
+button.custom-collapse-btn-option2 {
+  background-color: #57485d !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+button.custom-collapse-btn-option2:hover,
+button.custom-collapse-btn-option2:focus {
   background-color: #de9f66 !important;
-  color: #fff !important;
   border: none !important;
 }
 
-/* Rouge Travel*/
-button.custom-collapse-btn-rougetravel {
-  background-color: #c97861 !important;
-  border: none !important;
+button.custom-collapse-btn-option2:not(.collapsed) {
+  background-color: #a56738 !important;
   color: #fff !important;
 }
 
-button.custom-collapse-btn-rougetravel:hover,
-button.custom-collapse-btn-rougetravel:focus {
-  background-color: #de9f66 !important;
-  border: none !important;
-}
+/* Option 3 */
 
-button.custom-collapse-btn-rougetravel:not(.collapsed) {
-  background-color: #c97861 !important;
-  color: #fff !important;
-}
-
-/* Pink travel */
-
-button.custom-collapse-btn-pinktravel {
-  background-color: #da91b4 !important;
+button.custom-collapse-btn-option3 {
+  background-color: #8d5361 !important;
   border: none !important;
   color: #fff !important;
 }
 
-button.custom-collapse-btn-pinktravel:hover,
-button.custom-collapse-btn-pinktravel:focus {
-  background-color: #c97861 !important;
+button.custom-collapse-btn-option3:hover,
+button.custom-collapse-btn-option3:focus {
+  background-color: #a56738 !important;
   border: none !important;
 }
 
-button.custom-collapse-btn-pinktravel:not(.collapsed) {
-  background-color: #da91b4 !important;
+button.custom-collapse-btn-option3:not(.collapsed) {
+  background-color: #57485d !important;
   color: #fff !important;
   border: none !important;
 }
 
+/* Option 4 */
+
+button.custom-collapse-btn-option4 {
+  background-color: #a56738 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+button.custom-collapse-btn-option4:hover,
+button.custom-collapse-btn-option4:focus {
+  background-color: #57485d !important;
+  border: none !important;
+}
+
+button.custom-collapse-btn-option4:not(.collapsed) {
+  background-color: #8d5361 !important;
+  color: #fff !important;
+  border: none !important;
+}
 
 /* ====== RSVP PAGE ====== */
 

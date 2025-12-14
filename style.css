@@ -30,20 +30,24 @@ body {
 /* Headings */
 
 h1 {
-  color: #A44E44  !important;
+  color: #8d5361  !important;
   text-transform: uppercase;
 }
 
 /* Navbar */
 
 .navbar-bog-colour {
-  background-color: rgb(215 148 115 / 16%) !important;
+  background-color: #dcd3c6 !important;
+}
+
+.nav-item {
+  font-size: 1.25rem;
 }
 
 /* Line break */
 
 .line {
-  color: #A44E44  ;
+  color: #8d5361  ;
 }
 
 /* ====== INDEX PAGE ====== */
@@ -152,6 +156,7 @@ h1 {
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: grid;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -167,6 +172,8 @@ h1 {
   backface-visibility: hidden;
   top: 0;
   left: 0;
+  grid-area: 1 / 1; 
+  transform-style: preserve-3d
 }
 
 .flip-card-front {
@@ -176,16 +183,32 @@ h1 {
 .flip-card-back {
   transform: rotateY(180deg);
   z-index: 3;
-  overflow-y: auto;
+  overflow-y: 180deg;
 
+}
+
+.flip-card-front .card,
+.flip-card-back .card {
+  border-radius: 0.5rem;          
+  overflow: hidden;               
+  background-color: #fff;         
+}
+
+.flip-card-back .card-body {
+  max-height: 55vh;               
+  overflow: auto;
 }
 
 /* Card Background Colours */
 
 /* Option1*/
 .cardbackground1 {
-  background-color: #4a769e  !important;
-  color: #fff !important;
+  background-color: #dcd3c6  !important;
+  color: #8d5361 !important;
+}
+
+#cardtextbody1 {
+  color: #8d5361 !important;
 }
 
 /* Option2*/
@@ -212,6 +235,8 @@ h1 {
   width: 15%;
   height: 15%;
 }
+
+
 
 
 /* Hero Image & zoom on hover

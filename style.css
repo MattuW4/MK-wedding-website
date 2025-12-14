@@ -413,16 +413,16 @@ button.custom-collapse-btn-option2 {
   color: #fff !important;
 }
 
-button.custom-collapse-btn-option2:hover,
-button.custom-collapse-btn-option2:focus {
+button.custom-collapse-btn-option2:hover /*,
+ button.custom-collapse-btn-option2:focus */{
   background-color: #de9f66 !important;
   border: none !important;
 }
 
-button.custom-collapse-btn-option2:not(.collapsed) {
+/*button.custom-collapse-btn-option2:not(.collapsed) {
   background-color: #a56738 !important;
   color: #fff !important;
-}
+}*/
 
 /* Option 3 */
 
@@ -432,17 +432,17 @@ button.custom-collapse-btn-option3 {
   color: #fff !important;
 }
 
-button.custom-collapse-btn-option3:hover,
-button.custom-collapse-btn-option3:focus {
+button.custom-collapse-btn-option3:hover /*,
+ button.custom-collapse-btn-option3:focus */{
   background-color: #a56738 !important;
   border: none !important;
 }
 
-button.custom-collapse-btn-option3:not(.collapsed) {
+/* button.custom-collapse-btn-option3:not(.collapsed) {
   background-color: #57485d !important;
   color: #fff !important;
   border: none !important;
-}
+} */
 
 /* Option 4 */
 
@@ -452,17 +452,17 @@ button.custom-collapse-btn-option4 {
   color: #fff !important;
 }
 
-button.custom-collapse-btn-option4:hover,
-button.custom-collapse-btn-option4:focus {
+button.custom-collapse-btn-option4:hover/*,
+ button.custom-collapse-btn-option4:focus */ {
   background-color: #57485d !important;
   border: none !important;
 }
 
-button.custom-collapse-btn-option4:not(.collapsed) {
+/* button.custom-collapse-btn-option4:not(.collapsed) {
   background-color: #8d5361 !important;
   color: #fff !important;
   border: none !important;
-}
+} */
 
 /* ====== RSVP PAGE ====== */
 
